@@ -1,9 +1,7 @@
 /*******************************************************************************************************************
-    Moods Example
-    by Scott Kildall
+    Moods State Machine
+    by Hannah Gabany
 
-    Uses the p5.SimpleStateMachine library. Check the README.md + source code documentation
-    The index.html needs to include the line:  <script src="p5.simpleStateManager.js"></script>
 *********************************************************************************************************************/
 
 var simpleStateMachine;           // the SimpleStateManager class
