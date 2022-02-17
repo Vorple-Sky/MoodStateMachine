@@ -15,7 +15,7 @@ function preload() {
 
 // Setup code goes here
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   imageMode(CENTER);
 
   // setup the state machine with callbacks
@@ -70,12 +70,13 @@ function keyPressed() {
 //==== MODIFY THIS CODE FOR UI =====/
 
 function drawBackground() {
-  background(0);
+  background(220, 196, 142);
 }
 
 function drawImage() {
   if( moodImage !== undefined ) {
     image(moodImage, width/2, height/2);
+    moodImage.resize(750, 750);
   }  
 }
 
