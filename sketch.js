@@ -69,10 +69,12 @@ function keyPressed() {
 
 //==== MODIFY THIS CODE FOR UI =====/
 
+//changed to be a more neutral background
 function drawBackground() {
   background(220, 196, 142);
 }
 
+//resized image to be fully visable on website
 function drawImage() {
   if( moodImage !== undefined ) {
     image(moodImage, width/2, height/2);
@@ -83,13 +85,13 @@ function drawImage() {
 function drawUI() {
   push();
   textAlign(LEFT);
-  textSize(18);
+  textSize(20);
 
   for( let i = 0; i < transitions.length; i++ ) {
-    fill(255);
+    fill(86, 77, 74);
 
     if( selectedTransitionNum === i ) {
-      fill(240,50,0);
+      fill(238, 108, 77);
     }
     text( transitions[i], 100, (height - 100) + (i*30)  );
   }
