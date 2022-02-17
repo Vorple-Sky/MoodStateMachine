@@ -1,15 +1,19 @@
 StateName,PNGFilename,TransitionText,NewState
-Relaxed,assets/relaxed.png,See a cute cat,Excited
-Relaxed,assets/relaxed.png,My roommates didn’t wash the dishes so I can't eat,Frustrated
-Angry,assets/angry.png,"Realize the person I was angry at does not care
-",Sad
-Angry,assets/angry.png,I do some breathing exercises,Relaxed
-Sad,assets/sad.png,i can't figure out why I'm crying,Frustrated
-Sad,assets/sad.png,"i have cried out all my tears
-",Relaxed
-Excited,assets/excited.png,"This assignment is not as easy as I thought it was
-",Frustrated
-Excited,assets/excited.png,"someone likes my best friend but the person i like
-",Angry
-Frustrated,assets/frustrated.png,I can't figure out a problem,Angry
-Frustrated,assets/frustrated.png,I figure out a solution,Excited
+Calm,assets/Calm.png,Plans a trip,Excitement
+Calm,assets/Calm.png,Does homework for a hard class,Confusion
+Confusion,assets/Confusion_.png,Watches a mystery drama,Excitement
+Confusion,assets/Confusion_.png,Works on my career,Depression
+Depression,assets/Depression.png,Works on an art piece,Calm
+Depression,assets/Depression.png,Finds a new hobby to try out,Excitement
+Excitement,assets/Excitement_.png,Remembers I have late work,Depression
+Excitement,assets/Excitement_.png,Gets lost someplace public,Confusion
+Excitement,assets/Excitement_.png,Uses the wrong word in a conversation,Foolish
+Dissociation,assets/Dissociation_.png,Talks to a good friend,Calm
+Dissociation,assets/Dissociation_.png,Reads a new book,Excitement
+Dissociation,assets/Dissociation_.png,Has a long day at school,Tired
+Anxiety,assets/Anxiety_.png,Has to plan a work confrence,Dissociation
+Anxiety,assets/Anxiety_.png,Plays a fun video game,Tired
+Tired,assets/Tired.png,Gets 8 hours of sleep,Confusion
+Tired,assets/Tired.png,Messes up the activity that I am doing,Foolish
+Foolish,assets/Foolish_.png,Cleans up the mess I made,Anxiety
+Foolish,assets/Foolish_.png,Gets a assignment date wrong,Confusion
